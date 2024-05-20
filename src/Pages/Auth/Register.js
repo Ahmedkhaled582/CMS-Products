@@ -17,6 +17,7 @@ export default function Register() {
 
     const [err , seterr] = useState("")
 
+    const navigate = useNavigate()
 
     const [loading , setloading] = useState(false)
 
@@ -36,7 +37,7 @@ export default function Register() {
         setloading(true)
         try {
           await axios.post(`https://movie-app-l0g2.onrender.com/register`,form)
-          window.location.pathname="/"
+          navigate("/login")
         } catch (err) {
             setloading(false)
             if(err.response.status === 422){
