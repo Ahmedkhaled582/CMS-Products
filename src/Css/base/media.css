@@ -1,0 +1,13 @@
+@media (max-width: 992px){
+    .form{
+        background-image:linear-gradient(rgba(255 , 255 , 255 , 0.8) 0% , rgba(255 , 255 , 255 , 0.8) 100%),
+        url(../../image/geranimo-WJkc3xZjSXw-unsplash.jpg);
+
+    }
+    .custom-form{
+        width: 100%;
+    }
+    .form-c input{
+        width: 100%;
+    }
+}
