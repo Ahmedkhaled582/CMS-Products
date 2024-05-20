@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/CMS-Products/static/css/main.50bdf0ef.css",
-    "main.js": "/CMS-Products/static/js/main.e1233639.js",
+    "main.css": "/CMS-Products/static/css/main.e0500bce.css",
+    "main.js": "/CMS-Products/static/js/main.561f33dd.js",
     "static/media/geranimo-WJkc3xZjSXw-unsplash.jpg": "/CMS-Products/static/media/geranimo-WJkc3xZjSXw-unsplash.5460e0abc170dfdcc120.jpg",
     "static/media/upload.png": "/CMS-Products/static/media/upload.77e0e4b5cba14826d23e.png",
     "index.html": "/CMS-Products/index.html",
-    "main.50bdf0ef.css.map": "/CMS-Products/static/css/main.50bdf0ef.css.map",
-    "main.e1233639.js.map": "/CMS-Products/static/js/main.e1233639.js.map"
+    "main.e0500bce.css.map": "/CMS-Products/static/css/main.e0500bce.css.map",
+    "main.561f33dd.js.map": "/CMS-Products/static/js/main.561f33dd.js.map"
   },
   "entrypoints": [
-    "static/css/main.50bdf0ef.css",
-    "static/js/main.e1233639.js"
+    "static/css/main.e0500bce.css",
+    "static/js/main.561f33dd.js"
   ]
 }
