@@ -37,7 +37,7 @@ export default function Login() {
     e.preventDefault();
     setloading(true);
     try {
-      const res = await axios.post(`https://movie-app-l0g2.onrender.com/login`, form);
+      const res = await axios.post(`https://noxi-movies-production.up.railway.app/login`, form);
       setloading(false);
       const token = res.data.token;
       cookie.set("e-commerce", token);
