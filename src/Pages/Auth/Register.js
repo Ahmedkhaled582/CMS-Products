@@ -36,7 +36,7 @@ export default function Register() {
         e.preventDefault()
         setloading(true)
         try {
-          await axios.post(`https://movie-app-l0g2.onrender.com/register`,form)
+          await axios.post(`https://noxi-movies-production.up.railway.app/register`,form)
           navigate("/login")
         } catch (err) {
             setloading(false)
