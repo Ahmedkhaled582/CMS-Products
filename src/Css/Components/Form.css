@@ -1,0 +1,51 @@
+.form{
+    width:400px !important;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0 ,0 ,0 ,0.3);
+    padding: 30px;
+}
+.custom-form{
+    width: 100%;
+}
+.form-c{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.form-c input{
+    padding: 13px;
+    outline: none;
+    border-radius: 3px;
+    border: 0;
+    width: 100%;
+    border-bottom: 3px solid transparent;
+    font-family: 'Lato', sans-serif;
+    box-shadow: 0 0 10px rgb(153, 152, 152) inset;
+}
+.form-c label{
+    position: absolute;
+    top: -17px;
+    left: 0px;
+    font-size: 13px;
+    color: gray;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.form-c input:focus:valid{
+    border-bottom: 3px solid green;
+}
+.form-c input:focus:not(:valid){
+    border-bottom: 3px solid orangered;
+}
+.form-c input:placeholder-shown + label{
+    opacity: 0;
+    visibility: hidden;
+    top: 20px;
+}
+
+#am{
+    color: #205e20;
+}
+#mo{
+    margin-top: 3px;
+}

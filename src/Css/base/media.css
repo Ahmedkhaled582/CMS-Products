@@ -1,0 +1,8 @@
+@media (max-width: 992px){
+    .custom-form{
+        width: 100%;
+    }
+    .form-c input{
+        width: 100%;
+    }
+}
