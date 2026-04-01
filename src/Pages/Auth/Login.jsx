@@ -5,6 +5,8 @@ import Cookie from "cookie-universal";
 // @ts-ignore
 import { Form } from "react-bootstrap";
 import { useNavigate , Link } from "react-router-dom";
+import { Axios } from "../../Api/Axios";
+import { baseURL } from "../../Api/Api";
 
 export default function Login() {
   const [form, setform] = useState({
@@ -38,7 +40,7 @@ export default function Login() {
     e.preventDefault();
     setloading(true);
     try {
-      const res = await axios.post(`/api/login`, form);
+      const res = await Axios.post(`${baseURL}/login`, form);
       setloading(false);
       console.log(res)
       const token = res.data.accessToken;
