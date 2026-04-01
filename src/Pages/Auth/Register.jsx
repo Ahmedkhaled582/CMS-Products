@@ -4,7 +4,6 @@ import Loading from "../../Components/Loading/Loading";
 // @ts-ignore
 import { Form } from "react-bootstrap";
 import { Link, useNavigate } from "react-router-dom";
-import { Axios } from "../../Api/Axios";
 import { baseURL } from "../../Api/Api";
 export default function Register() {
 
@@ -38,7 +37,7 @@ export default function Register() {
         e.preventDefault()
         setloading(true)
         try {
-          await Axios.post(`${baseURL}/register`,form)
+          await axios.post(`${baseURL}/register`,form)
           navigate("/login")
         } catch (err) {
             setloading(false)
