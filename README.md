@@ -67,7 +67,7 @@ src/
 
 ## ⚡ Getting Started
 
-git clone https://github.com/your-username/cms-products.git  
+git clone [https://github.com/your-username/cms-products.git ](https://github.com/Ahmedkhaled582/CMS-Products.git)
 cd cms-products  
 npm install  
 npm start  
