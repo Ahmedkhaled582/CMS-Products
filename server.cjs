@@ -1,20 +1,20 @@
 const jsonServer = require("json-server");
 const auth = require("json-server-auth");
-const cors = require("cors");
+const path = require("path");
 
-const server = jsonServer.create();
+const app = jsonServer.create();
 const router = jsonServer.router("db.json");
+const middlewares = jsonServer.defaults({
+  static: "./dist" // Serve React build
+});
 
-server.use(cors());
-server.use(jsonServer.defaults());
+app.db = router.db;
 
-server.db = router.db;
+app.use(middlewares);
+app.use(auth);
+app.use(router);
 
-server.use(auth);
-server.use(router);
-
-const PORT = process.env.PORT || 5000;
-
-server.listen(PORT, () => {
-  console.log("Server running on port", PORT);
+const PORT = process.env.PORT || 3001;
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
 });
