@@ -2,13 +2,13 @@
 
 # 🧩 CMS Products — Admin Dashboard System
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-orange?style=for-the-badge)](https://ahmedkhaled582.github.io/CMS-Products/)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-orange?style=for-the-badge)](https://cms-products-production.up.railway.app/)
 [![React](https://img.shields.io/badge/React-%2361DAFB?style=for-the-badge&logo=react&logoColor=black)]()
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-%237952B3?style=for-the-badge&logo=bootstrap&logoColor=white)]()
 [![Auth](https://img.shields.io/badge/Authentication-enabled-green?style=for-the-badge)]()
 
 ## 🚀 Live Demo
-🔗 https://ahmedkhaled582.github.io/CMS-Products/
+🔗 https://cms-products-production.up.railway.app/
 
 ## 🎥 Preview
 
@@ -91,4 +91,4 @@ npm start
 
 Ahmed Khaled  
 Portfolio: https://ahmedkhaled582.github.io/Portfolio/  
-LinkedIn: https://linkedin.com/in/ahmedkhaled582  
+LinkedIn: https://www.linkedin.com/in/ahmed-khaled-yahia
